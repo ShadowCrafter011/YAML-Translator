@@ -23,6 +23,7 @@ You of course also need internet to access the Deepl API
 Download the code and create a .env file in the same directory as main.py.
 You then need to create a line as follows in the .env file
 > AUTH_KEY=your_auth_key
+
 Replace your_auth_key with your Deepl API auth key. You can find it [here](https://www.deepl.com/en/account/summary)
 
 You are then ready to start using the tool. Just paste the contents of the yml file you would like to translate into input.yml. Double click main.py or run it with PyCharm, VsCode, the Console, ...
