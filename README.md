@@ -13,7 +13,6 @@ This code was written and tested with
   - deepl 1.11.0
   - python-dotenv 0.21.0
   - PyYAML 6.0
-  - requests 2.28.1
 
 Make sure you have the libraries installed and if you are still getting errors install the exact versions I specified above.
 
