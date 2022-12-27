@@ -1,8 +1,2 @@
-de:
-  es: Spanisch
-  la: Latein
-  el: Griechisch
-  rm: Romanisch
-  ja: Japanisch
-  ko: Koreanisch
-  zh: Chinesisch
+en:
+  hello: Hello, World!
