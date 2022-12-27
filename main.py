@@ -37,6 +37,15 @@ def destruct_and_translate(data: dict) -> None:
 
 if __name__ == '__main__':
     load_dotenv()
+
+    if not os.path.exists("./.env") or os.getenv("AUTH_KEY") is None:
+        print("It seems like you didn't specify your Deepl auth key in the .env file")
+        auth_key = input("You can paste it here to automatically add it ")
+
+        with open("./.env", "w") as env:
+            env.write(f"AUTH_KEY={auth_key}")
+        load_dotenv()
+
     translator = Translator(os.getenv("AUTH_KEY"))
     language_key = input("Language key for the translated yml ")
     deepl_target = input("Target lang for deepl. Leave blank to use language key above ") or language_key
