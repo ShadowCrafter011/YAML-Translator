@@ -18,6 +18,27 @@ Make sure you have the libraries installed and if you are still getting errors i
 
 You of course also need internet to access the Deepl API
 
+### Setup Virtual Environment
+1. Create a virtual environment:
+```bash
+python -m venv venv
+```
+
+2. Activate the virtual environment:
+- Windows:
+```bash
+.\venv\Scripts\activate
+```
+- Linux/Mac:
+```bash
+source venv/bin/activate
+```
+
+3. Install requirements:
+```bash
+pip install -r requirements.txt
+```
+
 ### Getting started
 Download the code and create a .env file in the same directory as main.py.
 You then need to create a line as follows in the .env file
